@@ -78,7 +78,7 @@ If you see errors here, especially related to model loading, double-check your `
 
 ## Sending a Query
 
-Once the server is running, you can send queries to the `/api/v1/query` endpoint using an HTTP POST request. The request body should be JSON containing a `query` key.
+Once the server is running, you can send queries to the `/api/v1/query` endpoint using an HTTP POST request. Open a new terminal and run the command given below : 
 
 **Example using `curl`:**
 
