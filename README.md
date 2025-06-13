@@ -45,7 +45,7 @@
 
 ## Running the FastAPI Server
 
-The server is run using **Uvicorn**, an ASGI server. Since your application entry point is `app/main.py`, you need to run the command from the **project root directory** (`legal-rag/`).
+The server is run using **Uvicorn**, an ASGI server. Run the command from the **project root directory** (`legal-rag/`).
 
 ```bash
 # Ensure your virtual environment (.venv) is active
