@@ -56,7 +56,7 @@ The server is run using **Uvicorn**, an ASGI server. Since your application entr
 # Ensure your virtual environment (.venv) is active
 # Make sure you are in the project root directory (legal-rag/)
 
-uvicorn app.main:app --reload
+uvicorn app.main:app
 ```
 
 **Explanation:**
