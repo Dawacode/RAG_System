@@ -53,16 +53,6 @@ The server is run using **Uvicorn**, an ASGI server. Run the command from the **
 
 uvicorn app.main:app
 ```
-
-**Explanation:**
-
-*   `uvicorn`: The command to start the server.
-*   `app.main:app`: Specifies the location of the FastAPI application instance:
-    *   `app`: Look inside the `app` directory/package.
-    *   `.main`: Find the `main.py` file within `app`.
-    *   `:app`: Use the variable named `app` (where `app = FastAPI()` is defined) inside `main.py`.
-*   `--reload`: (For Development) Automatically restarts the server when code changes are detected. **Do not use `--reload` in production.**
-
 **Expected Output:**
 
 You should see logs indicating the server startup process:
