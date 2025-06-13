@@ -20,8 +20,10 @@
     You should see `(.venv)` prefixed to your terminal prompt.
 
 3.  **Install Dependencies:**
-    Ensure your `requirements.txt` file accurately reflects the working versions needed (especially `torch`, `unsloth`, `transformers`, `peft`, `accelerate`, `fastapi`, `uvicorn`, `supabase`, etc.).
+    Ensure your `requirements.txt` and `requirements_kth_gpu.txt` file accurately reflects the working versions needed (especially `torch`, `unsloth`, `transformers`, `peft`, `accelerate`, `fastapi`, `uvicorn`, `supabase`, etc.).
     ```bash
+    pip install -r requirements_kth_gpu.txt
+
     pip install -r requirements.txt
     ```
 
