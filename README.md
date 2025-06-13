@@ -36,17 +36,10 @@
     SUPABASE_URL=YOUR_SUPABASE_PROJECT_URL
     SUPABASE_KEY=YOUR_SUPABASE_SERVICE_ROLE_OR_ANON_KEY
 
-    # Path to the model checkpoint directory (MUST be correct)
+    # Path to the model checkpoint directory
     # This is used by app/utils/config.py
     MODEL_PATH=/path/to/your/model/checkpoint-XYZ
 
-    # Optional: Uvicorn host/port/dev mode
-    # HOST=0.0.0.0 # To make accessible on your network
-    # PORT=8000
-    # DEV_MODE=true # To enable reload when running 'python app/main.py' (not needed for 'uvicorn --reload')
-
-    # Optional: Hugging Face Token (if base model requires it)
-    # HF_TOKEN=your_huggingface_token
     ```
     *   Replace placeholders with your actual Supabase URL/Key and the correct **full path** to the directory containing your fine-tuned model files (like `adapter_config.json`, `config.json`, model weights).
 
