@@ -50,7 +50,7 @@ def retrieve(query: str, top_k=RETRIEVAL_TOP_K, threshold=RETRIEVAL_THRESHOLD, p
     """
     if supabase is None:
         logger.error("Supabase client is not initialized. Cannot perform retrieval.")
-        return [], 
+        return [], 0.0
     
     logger.debug(f"Starting retrieval for query: '{query[:50]}...' with top_k={top_k}, threshold={threshold}, probes={probes}")
     
